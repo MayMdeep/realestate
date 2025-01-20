@@ -49,4 +49,4 @@ This is the backend component of the MERN (MongoDB, Express.js, React.js, Node.j
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MERN-STACK-REAL-ESTATE-DASHBOARD.git
+   git clone https://github.com/MayMdeep/realestate.git 
