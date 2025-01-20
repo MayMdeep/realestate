@@ -4,7 +4,8 @@ This is the backend component of the MERN (MongoDB, Express.js, React.js, Node.j
 
 ---
 ## Login to Dashboard:
-
+email :admin5@gmail.com
+password: 123456789
 ## Table of Contents
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
