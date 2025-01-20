@@ -1,0 +1,205 @@
+html,
+body,
+#root,
+.App,
+.content{
+ height: 100%;
+ width: 100%;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ transition: padding-left 0.3s ease;
+
+}
+
+.App{
+  display: flex;
+  position: relative;
+}
+
+.layout {
+  background-color: #244770;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+}
+
+.label[data-shrink=false]+.MuiInputBase-formControl .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  outline: none;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px 0 20px 20px;
+  background-color: #244770 ;
+  width: 192px;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  transform: translateX(0);
+}
+.logo {
+  margin-left: 0px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  color: #224729;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.logo .icon {
+  font-size: 1.4rem;
+}
+
+.logosidebar{
+  width: 160px;
+  height: 215px;
+}
+.menu--list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.menu--list .item{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+  color: white;
+  position: relative;
+}
+.menu--list .item:hover{
+  color: black;
+}
+.item:hover .chicken-icon path {
+  fill: black;
+}
+
+.menu--list .item span{
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.menu--list .item::before{
+  transform: translate(100%, -50%);
+  content: '';
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 30px 0 0 30px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAABvAQMAAABYeDswAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAh0lEQVR4nO3Sqw2AMBSF4d4gKjtCRyGMwghIBAE2YxRGQCII5Z6chpaHw4L4Qirvf8ToN8ir0t8tuqRtk66Bvk6WFewFhvFUdlhs0C3Qz7CcYDCq7NCu0M8wGFUfVP39/ahbzHnVeGFem5dnhViEdViK1Vgwbxors3i+Aa4i30m+n+e6rgs8AOWTh/CqOajhAAAAAElFTkSuQmCC);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  transition: all .3s ease-in-out;
+}
+
+.menu--list .item::after{
+  transform: translate(100%, -50%);
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+   background: white;
+   transition: all .3s ease-in-out;
+   border-radius: 30px 0 0 30px;
+}
+.menu--list .item:hover::before, .menu--list .item:hover::after{
+  transform: translate(0%, -50%);
+}
+.toggle-button-open {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  outline: none;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  /* left: 180px; */
+  z-index: 1000;
+  display: block;
+}
+.toggle-button-open-header {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  outline: none;
+}
+.toggle-button-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  outline: none;
+  position: absolute;
+  top: 80px;
+  /* left: 180px; */
+  z-index: 1000;
+
+}
+.hidden {
+  display: none;
+  transform: translateX(-100%);
+}
+
+.menu::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+.menu::-webkit-scrollbar-track {
+  background: #ffffff; /* Track color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: #020202; /* Scrollbar color */
+  border-radius: 5px; /* Rounded corners */
+  /* border: 2px solid #224729;  */
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+.edit-icon {
+  cursor: pointer;
+}
+.permission-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover path {
+  fill: red !important;
+}
+.edit-icon:hover path {
+  fill: green !important;
+}
+.permission-icon:hover path {
+  fill: rgb(230, 142, 28) !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+color: whitesmoke !important;
+font-weight: 600 !important;
+}
+
+.inputlable {
+  margin-bottom: 10px;
+  color: black !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}

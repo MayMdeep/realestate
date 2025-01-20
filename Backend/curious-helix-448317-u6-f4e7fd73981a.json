@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "curious-helix-448317-u6",
+  "private_key_id": "f4e7fd73981a07799781d374ff757a7bde1be1ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCN9WECMOuG9tsd\nnu8PiYwyTBKcdpAD0OdPghnD7QWUSclwiihJIJudzf6+FMRWUARdAgx1CHHNqQGG\nxnXIhAMa1hValYbbL+x+R5f35600cuXlzO6+Z+Ubz8hGxxEnPgGDOG31YwpI9NI5\ndbuJVDvuN+fZoLqMfjXd7kBK4ndJMp2+5FU+SgCppwzCD3mRYw7iN4zHR6JMVQ5l\nm8xz7Px8mhJfE4F3fCQgrfS+U47RVIil8V8ut/plW6Ap/hlZpysVIV4KRLZYyhDg\n0O0eeJy78MVKRWi060UxZ6mU2vtp3j74RWo27i5tiBoGRlWrtPWdGJoHlZh7Xs7+\n1WBrLeslAgMBAAECggEAEHRLt+xMWzV2dRAnV4ldmwre8WHQvuXSRJCo7zZ5pL7f\naXr/a70q1yIPD/XqQrLoU+YujsuEHWQkjXxSygN7NKYcjYZdaOnneJpQeWdSLTfQ\nK/sSr+FCWMnpxe0XBjxqrSIM+hoZEWxx3ZUm6qZn1+yE+YsRdG1rTaZrBK22nouM\n1DPyzycRUW4YSekmliPL7I4ifWBpE1U3GpSRZ631LKRPrL7DAzHC+0rrHDDAKk1T\n7d74dvT+RzcdOSzE0jtT1L9VIWhLtwiP6eqDc650kIBtpeA9cq6jejpcINYEiWFY\nxeEaKf10NlGiXVRYXavt6C0wyeWDseRlPm0/9gARtQKBgQDHNaZIN71I+/rfjxSg\nngyWhsKCMaW8PkUar2tUCmNFn//VxSntxalqE+WJXxY35yIstNMHGLGZrHtJ2Gvn\nntfVXXbNQchfaIUdSkUEjgXnSrTR5SybihA9y4XxHDQvmvTpvbdJOcZSEA6otJ+g\nDfE7mEnNnvkf8GbnqCr+8IyTAwKBgQC2bYlwPIIeo5fruuyKrVFYdBn7LWlVgtMb\noZNhuTdSUwJzS5EK8Ik+GQfgBFToGDzGqiBSM76ZYHpeA9upUknbPHaMIUiG0Nnl\n7FshqFKHGwo0Le7YPCnZUpxL/n5gb7YowkstAW/zVYPYI+sQcx+emwHsWo8jph3e\nR3MzNgmctwKBgQCi897OSlIa5oxD3T2pWT/AzgFEEKqa/nD2sDHicBDefk//JKX0\nqvC3JgloQpDhL7+DxHKu5mM46p97O36g3A1/qlGo+zuV1+CzofItFKP9m92nqIjB\nvsEkW1x4a3LA0kevABJy4sC4lgv3srC0c1M2RY9xlK4Ck1sJ+kUZf9nt0wKBgDp1\n+9dV7LT45BSNAISoaisYecL+mIToudJfAyYL/uiI5X4hN0f0MWcPCnEFslf2fHOF\nzXnKT0hDnLNINTqbvkNdqvfZKq7Zexqtlb7BfEEDr09tcN8m2JpmWOQZmFI7Onrx\nWLoBfejS/L9lM01AN1/SeNlPZBOehm/XIdnFdWsdAoGBAIwPSL3+Us6kpH1R+T+V\n5jC82qkNJkg0YCb26gDNkKm73ti39VdrSMyOzxqtKjGZm91hQCjY8x66Ia4TL4Yz\ncdueKrkupIZpsSH+MkCJGO4469GTSBGE2viTnaxgmQY6XXI80wvtAA7Ye8LMrFdU\nHY5jDqZ/CnMd/jdumF4oRiVP\n-----END PRIVATE KEY-----\n",
+  "client_email": "real-estate-service-account@curious-helix-448317-u6.iam.gserviceaccount.com",
+  "client_id": "118081155270992924201",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/real-estate-service-account%40curious-helix-448317-u6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
