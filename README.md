@@ -50,3 +50,13 @@ This is the backend component of the MERN (MongoDB, Express.js, React.js, Node.j
 1. Clone the repository:
    ```bash
    git clone https://github.com/MayMdeep/realestate.git 
+   1. **Navigate to the Backend Directory**:
+   ```bash
+    cd MERN-STACK-REAL-ESTATE-DASHBOARD/Backend
+    cd MERN-STACK-REAL-ESTATE-DASHBOARD/Backend
+    npm install
+    npm run dev
+
+    cd ../admin-dashboard
+    npm install
+    npm start
