@@ -23,6 +23,11 @@ password: 123456789
 - **Admin Dashboard**: Manage users, listings, and site settings.
 
 ---
+## Screenshots
+
+![Application Screenshot](./screenshots/Capture1.png)
+![Application Screenshot](./screenshots/Capture2.png)
+![Application Screenshot](./screenshots/Capture3.png)
 
 ## Technologies Used
 - **Backend**:
@@ -62,3 +67,17 @@ password: 123456789
     cd ../admin-dashboard
     npm install
     npm start
+
+## 🐳 Docker Setup
+
+This project includes Docker support for both the backend and frontend. Follow the steps below to run the application using Docker.
+
+### Prerequisites
+- Docker installed on your machine.
+- Docker Compose installed.
+
+### Steps to Run the Application
+1. Clone the repository:
+   ```bash
+    git clone https://github.com/MayMdeep/realestate
+    cd realestate
