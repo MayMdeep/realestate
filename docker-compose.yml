@@ -1,0 +1,47 @@
+
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "3005:3005"
+    volumes:
+      - ./Backend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - JWT_SECRET=f1c3b2a4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2
+      - GOOGLE_ANALYTICS_KEY=your_google_analytics_key
+      - PORT=3005
+      - MONGO_URI=mongodb+srv://dbUser:dbUserPassword@cluster0.406ym.mongodb.net/realestate?retryWrites=true&w=majority&appName=Cluster0
+    depends_on:
+      - mongo
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./admin-dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./admin-dashboard:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - REACT_APP_API_URL=http://localhost:3005
+    depends_on:
+      - backend
+
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
